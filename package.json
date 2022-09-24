@@ -1,0 +1,23 @@
+{
+  "name": "hackathontest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanTurns/hackathonTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryanTurns/hackathonTest/issues"
+  },
+  "homepage": "https://github.com/BryanTurns/hackathonTest#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
