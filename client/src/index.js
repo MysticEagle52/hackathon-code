@@ -5,6 +5,9 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./routes/Home";
+import Join from "./routes/Join"
+import Buy from "./routes/Buy"
+import Sell from "./routes/Sell"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,6 +16,9 @@ root.render(
       <Routes>
         <Route path="" element={<App />}>
           <Route path="/" element={<Home />} />
+            <Route path="/join" element={<Join />} />
+            <Route path="/buy" element={<Buy />} />
+            <Route path="/sell" element={<Sell />} />
         </Route>
       </Routes>
     </BrowserRouter>
